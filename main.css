@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    height: 80px;
+    background-color: #edeeef;
+}
+
+.divHeader {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+#logo {
+    font-size: large;
+    font-weight: lighter;
+    margin-top: 15px;
+    flex-shrink: 1;
+    background-color: #d5d6d7;
+    height: 24px;
+    padding: 10px;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.navMenu {
+    margin-top: 30px;
+    flex-shrink: 0;
+}
+
+.mainMenuList {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.mainMenuEl {
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: small;
+}
+
+.contact {
+    margin-top: 20px;
+    flex-shrink: 1;
+    font-size: small;
+}
+
+.flex-main-content {
+    margin-top: 0;
+}
+
+.flex-col-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px;
+    font-size: medium;
+    background-color: transparent;
+    color: black;
+    border: 2px solid #000000; /* Green */
+}
+
+.btn:active {
+    background-color: black;
+    color: white;
+}
+
+.protect {
+    padding-top: 6%;
+    height: 300px;
+    background-color: #e1e2e3;
+}
+
+.protect-p {
+    font-size: xx-large;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.spes-cont {
+    display: flex;
+    justify-content: center;
+    background-color: #a1a2a3;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: -3%;
+    margin-bottom: 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.sces-item {
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.spes-1 {
+    font-size: x-large;
+    font-weight: 200;
+    margin-right: 20%;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+.spes-2 {
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.spes-3 {
+    text-align: center;
+    font-size: small;
+}
+
+.lex {
+    margin-right: 30%;
+    margin-left: 30%;
+    text-align: center;
+    font-size: small;
+}
+
+.lex-title {
+    font-size: x-large;
+    font-weight: 200;
+}
+
+.lex-item {
+    margin-bottom: 5%;
+}
+
+.fee {
+    padding-top: 5%;
+    background-color: #e1e2e3;
+    padding-bottom: 5%;
+}
+
+.fee-main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fee-main-block img {
+    width: 100%;
+    max-width: 160px;
+}
+
+.fee-main-block p{
+    margin: 10px;
+}
+
+.fee-main-block {
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    font-size: small;
+}
